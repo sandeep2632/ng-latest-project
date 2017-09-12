@@ -1,0 +1,11 @@
+
+
+<button class="btn btn-primary" (click)="OnButtonClick()" >Display Details</button>
+
+
+<p *ngIf="showtext">
+  display-details works!
+</p>
+<ul *ngFor="let log of logs">
+  <li>{{log}}</li>
+</ul>
